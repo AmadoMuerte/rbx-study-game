@@ -1,3 +1,3 @@
-import { makeHello } from "shared/module";
+import { spawn } from "shared/spawn";
 
-print(makeHello("main.server.ts"));
+spawn();
